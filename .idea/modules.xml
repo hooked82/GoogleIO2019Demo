@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/GoogleIO2019Demo.iml" filepath="$PROJECT_DIR$/GoogleIO2019Demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/explore/feature-explore.iml" filepath="$PROJECT_DIR$/features/explore/feature-explore.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/newsfeed/feature-newsfeed.iml" filepath="$PROJECT_DIR$/features/newsfeed/feature-newsfeed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/settings/feature-settings.iml" filepath="$PROJECT_DIR$/features/settings/feature-settings.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/splash/feature-splash.iml" filepath="$PROJECT_DIR$/features/splash/feature-splash.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/story/feature-story.iml" filepath="$PROJECT_DIR$/features/story/feature-story.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/watch/feature-watch.iml" filepath="$PROJECT_DIR$/features/watch/feature-watch.iml" />
+      <module fileurl="file://$PROJECT_DIR$/features/weather/feature-weather.iml" filepath="$PROJECT_DIR$/features/weather/feature-weather.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ads/library-ads.iml" filepath="$PROJECT_DIR$/library/ads/library-ads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ads-amazon/library-ads-amazon.iml" filepath="$PROJECT_DIR$/library/ads-amazon/library-ads-amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ads-core/library-ads-core.iml" filepath="$PROJECT_DIR$/library/ads-core/library-ads-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ads-dfp/library-ads-dfp.iml" filepath="$PROJECT_DIR$/library/ads-dfp/library-ads-dfp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ads-facebook/library-ads-facebook.iml" filepath="$PROJECT_DIR$/library/ads-facebook/library-ads-facebook.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ads-gemini/library-ads-gemini.iml" filepath="$PROJECT_DIR$/library/ads-gemini/library-ads-gemini.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ads-outstream/library-ads-outstream.iml" filepath="$PROJECT_DIR$/library/ads-outstream/library-ads-outstream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/core/library-core.iml" filepath="$PROJECT_DIR$/library/core/library-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/ui/library-ui.iml" filepath="$PROJECT_DIR$/library/ui/library-ui.iml" />
+      <module fileurl="file://$PROJECT_DIR$/library/video/library-video.iml" filepath="$PROJECT_DIR$/library/video/library-video.iml" />
+    </modules>
+  </component>
+</project>

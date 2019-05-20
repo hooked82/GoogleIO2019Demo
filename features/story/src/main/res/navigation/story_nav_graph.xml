@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/story_nav_graph.xml"
+    app:startDestination="@id/storyDetailsFragment">
+
+    <fragment
+        android:id="@+id/storyDetailsFragment"
+        android:name="com.hookedroid.googleio2019demo.story.StoryDetailsFragment"
+        android:label="StoryDetailsFragment"
+        tools:layout="@layout/fragment_story_details">
+        <deepLink
+            android:id="@+id/deepLink"
+            app:uri="story://details/$storyId" />
+        <deepLink
+            android:id="@+id/deepLink2"
+            app:uri="story://gallery/$storyId" />
+    </fragment>
+
+</navigation>

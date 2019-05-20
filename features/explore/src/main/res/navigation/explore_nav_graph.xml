@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/explore_nav_graph"
+    app:startDestination="@id/exploreNavFragment">
+
+    <fragment
+        android:id="@+id/exploreNavFragment"
+        android:name="com.hookedroid.googleio2019demo.explore.ExploreNavFragment"
+        android:label="ExploreNavFragment"
+        tools:layout="@layout/fragment_explore_nav" >
+        <action
+            android:id="@+id/action_exploreNavFragment_to_exploreTeasersFragment"
+            app:destination="@id/exploreTeasersFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/exploreTeasersFragment"
+        android:name="com.hookedroid.googleio2019demo.explore.ExploreTeasersFragment"
+        android:label="ExploreTeasersFragment"
+        tools:layout="@layout/fragment_explore_teasers"/>
+</navigation>

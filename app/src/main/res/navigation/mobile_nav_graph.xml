@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/nav_newsfeed">
+
+    <include app:graph="@navigation/explore_nav_graph" />
+    <include app:graph="@navigation/story_nav_graph" />
+
+    <fragment
+        android:id="@+id/nav_newsfeed"
+        android:name="com.hookedroid.googleio2019demo.newsfeed.NewsfeedFragment"
+        android:label="@string/title_newsfeed"
+        tools:layout="@layout/fragment_newsfeed">
+        <!--<action-->
+            <!--android:id="@+id/action_newsfeed_to_story"-->
+            <!--app:destination="@id/story_nav_graph.xml" />-->
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_weather"
+        android:name="com.hookedroid.googleio2019demo.weather.WeatherFragment"
+        android:label="@string/title_weather"
+        tools:layout="@layout/fragment_weather" />
+
+    <fragment
+        android:id="@+id/nav_explore"
+        android:name="com.hookedroid.googleio2019demo.explore.ExploreFragment"
+        android:label="@string/title_explore"
+        tools:layout="@layout/fragment_explore" />
+
+    <fragment
+        android:id="@+id/nav_watch"
+        android:name="com.hookedroid.googleio2019demo.watch.WatchFragment"
+        android:label="@string/title_watch"
+        tools:layout="@layout/fragment_watch" />
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.hookedroid.googleio2019demo.settings.SettingsFragment"
+        android:label="@string/title_settings"
+        tools:layout="@layout/fragment_settings" />
+
+</navigation>

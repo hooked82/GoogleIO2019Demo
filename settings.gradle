@@ -1,0 +1,37 @@
+include ':app',
+		':feature-explore',
+		':feature-newsfeed',
+		':feature-settings',
+		':feature-splash',
+		':feature-story',
+		':feature-watch',
+		':feature-weather',
+		':library-ads',
+		':library-ads-amazon',
+		':library-ads-core',
+		':library-ads-dfp',
+		':library-ads-facebook',
+		':library-ads-gemini',
+		':library-ads-outstream',
+		':library-core',
+		':library-ui',
+		':library-video'
+
+project(':feature-explore').projectDir = new File(rootDir, 'features/explore')
+project(':feature-newsfeed').projectDir = new File(rootDir, 'features/newsfeed')
+project(':feature-settings').projectDir = new File(rootDir, 'features/settings')
+project(':feature-splash').projectDir = new File(rootDir, 'features/splash')
+project(':feature-story').projectDir = new File(rootDir, 'features/story')
+project(':feature-watch').projectDir = new File(rootDir, 'features/watch')
+project(':feature-weather').projectDir = new File(rootDir, 'features/weather')
+
+project(':library-ads').projectDir = new File(rootDir, 'library/ads')
+project(':library-ads-amazon').projectDir = new File(rootDir, 'library/ads-amazon')
+project(':library-ads-core').projectDir = new File(rootDir, 'library/ads-core')
+project(':library-ads-dfp').projectDir = new File(rootDir, 'library/ads-dfp')
+project(':library-ads-facebook').projectDir = new File(rootDir, 'library/ads-facebook')
+project(':library-ads-gemini').projectDir = new File(rootDir, 'library/ads-gemini')
+project(':library-ads-outstream').projectDir = new File(rootDir, 'library/ads-outstream')
+project(':library-core').projectDir = new File(rootDir, 'library/core')
+project(':library-ui').projectDir = new File(rootDir, 'library/ui')
+project(':library-video').projectDir = new File(rootDir, 'library/video')

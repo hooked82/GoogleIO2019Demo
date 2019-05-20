@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Google IO 2019 Demo</string>
+
+    <string name="title_newsfeed">Newsfeed</string>
+    <string name="title_weather">Weather</string>
+    <string name="title_explore">Explore</string>
+    <string name="title_watch">Watch</string>
+    <string name="title_settings">Settings</string>
+</resources>

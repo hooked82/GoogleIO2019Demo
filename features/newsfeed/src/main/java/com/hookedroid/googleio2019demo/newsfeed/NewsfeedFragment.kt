@@ -23,8 +23,9 @@ class NewsfeedFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
+        val storyId = "1"
         mBinding.newsfeedStoryBtn.setOnClickListener {
-            val storyUri = "story://details/1".toUri()
+            val storyUri = "story://details/$storyId".toUri()
             findNavController().navigate(storyUri)
         }
     }
